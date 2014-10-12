@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Spelling Practice.jnlp">
+  <information>
+    <title>Spelling Practice</title>
+    <vendor>Quinn</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <jfx:javafx-runtime version="2.2+" href="http://javadl.sun.com/webapps/download/GetFile/javafx-latest/windows-i586/javafx2.jnlp"/>
+  </resources>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="lib/cmu_time_awb.jar" size="1725287" download="eager" />
+    <jar href="lib/cmu_us_kal.jar" size="4901175" download="eager" />
+    <jar href="lib/cmudict04.jar" size="896522" download="eager" />
+    <jar href="lib/cmulex.jar" size="601038" download="eager" />
+    <jar href="lib/cmutimelex.jar" size="2846" download="eager" />
+    <jar href="lib/en_us.jar" size="876022" download="eager" />
+    <jar href="lib/freetts-jsapi10.jar" size="61310" download="eager" />
+    <jar href="lib/freetts.jar" size="221971" download="eager" />
+    <jar href="lib/jsapi.jar" size="59286" download="eager" />
+    <jar href="lib/mbrola.jar" size="13863" download="eager" />
+  </resources>
+<security>
+  <all-permissions/>
+</security>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Spelling Practice" >
+    <param name="requiredFXVersion" value="2.2+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="edu.group13.spelling.Main"  name="Spelling Practice" />
+  <update check="always"/>
+</jnlp>
