@@ -48,6 +48,8 @@ public class Main extends Application {
         System.out.println("Voice initialized and working...");
     }
 
+    // Will eventually replace this with FXML Loader
+    // and setup Scene switcher
     public void start(Stage stage)
     {
         System.out.println("Starting GUI");
